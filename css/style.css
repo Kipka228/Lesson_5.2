@@ -1,0 +1,89 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700&display=swap");
+
+@font-face {
+	font-family: "MechePro";
+	src: url("../fonts/MechePro-Regular.woff2") format("woff2"), url("../fonts/MechePro-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "MechePro";
+	src: url("../fonts/MechePro-Medium.woff2") format("woff2"), url("../fonts/MechePro-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "MechePro";
+	src: url("../fonts/MechePro-Bold.woff2") format("woff2"), url("../fonts/MechePro-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+body{
+    font-family: 'MechePro';
+    font-size: 16px;
+	text-shadow: 5px 5px 40px #000;
+}
+
+.block{
+    margin: 0px auto;
+    width: 840px;
+    text-align: center;
+}
+
+.title{
+    margin-top: 30px;
+    font-size: 40px;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.hide{
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nav-list{
+    color: blue;
+	overflow: auto;
+	max-height: 15px;
+}
+
+.through{
+	text-decoration: line-through;
+}
+
+.mark{
+    color:darkcyan;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    margin: 15px 0;
+    font-size: 30px;
+    color:darkseagreen;
+}
+
+.info{
+    color: indigo;
+}
+
+.end{
+	font-size: 10px;
+	color: coral;
+}
+
+
